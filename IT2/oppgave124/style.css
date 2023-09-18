@@ -1,0 +1,35 @@
+fieldset{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#des{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+#heks{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+#bin{
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+
+#input{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+#preHeks{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+#preBin{
+    grid-row: 2/3;
+    grid-column: 3/4;
+}

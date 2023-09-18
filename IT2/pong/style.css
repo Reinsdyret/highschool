@@ -1,0 +1,43 @@
+#gameCanvas{
+    position: relative;
+    width: 320px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#leftPaddle{
+    position: absolute;
+    left: 5px;
+    top: 75px;
+}
+#rightPaddle{
+    position: absolute;
+    left: 305px;
+    top: 75px;
+}
+
+#ball{
+    position: absolute;
+    left: 150px;
+    top: 90px;
+    width: 10px;
+    height: 10px;
+}
+
+ul{
+    display: inline;
+    list-style-type: none;
+}
+
+#scoreLeft {
+    position: relative;
+    left: 5px;
+    top: 0;
+    width: 50px;
+}
+
+#scoreRight{
+    position: relative;
+    left: 305px;
+    top: 0;
+}

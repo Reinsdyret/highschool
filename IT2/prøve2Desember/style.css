@@ -1,0 +1,39 @@
+fieldset#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr;
+    grid-template-rows: repeat(9,1fr) 0.5fr;
+    height: 500px;
+}
+
+#personbil{
+    grid-row: 2/4;
+    grid-column: 1/2;
+
+    margin: 10px;
+}
+
+#motorsykkel{
+    grid-row: 5/7;
+    grid-column: 1/2;
+
+    margin: 10px;
+}
+
+#lastebil{
+    grid-row: 8/10;
+    grid-column: 1/2;
+
+    margin: 10px;
+}
+
+#dagsoppgjør{
+    grid-row: 9/10;
+    grid-column: 3/4;
+}
+
+#ticketField{
+    grid-row: 1/9;
+    grid-column: 2/4;
+    font-size: 40px;
+    height: 350px;;
+}

@@ -1,0 +1,18 @@
+/*body{
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 2fr;
+}
+.rolls{
+    grid-row: 0/1;
+}
+
+.sides{
+    grid-row: 1/2;
+}
+#submit{
+    grid-column: 1/2;
+    grid-row:2/3;
+}
+#canvas{
+    grid-row: 2/3;
+}*/

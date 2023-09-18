@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GameOfLife</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css"  href="style.css">
+        <script src="code.js" defer></script>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Game Of Life</legend>
+            <canvas id="canvas" width="850" height="850"></canvas>
+            <pre id="generations"></pre>
+            <pre id="currentPopulation"></pre>
+            <label for="generationsPerSeconds" id="generationsPerSecondsLabel">Simulation speed</label>
+            <input type="range" min="1" max="1000" id="generationsPerSeconds">
+            <pre id="generationsPerSecondsPre"></pre>
+            <button id="btnStart">Start</button>
+        </fieldset>
+    </body>
+</html>

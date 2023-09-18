@@ -1,0 +1,13 @@
+#figure{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border: 1px solid red;
+}
+
+#ball{
+    width: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
